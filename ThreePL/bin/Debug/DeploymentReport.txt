@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[ASNShipType] (Table)
+       [dbo].[FK_ASNShipType_HeaderId] (Foreign Key)
+       [dbo].[FK_ASNShipType_ShipType] (Foreign Key)
+
+** Supporting actions
+
+Your permissions to see all objects in the server or database could not be verified.  The original error was:
+The SELECT permission has not been granted on 'sys.sql_logins' for the 'master' database. You must be a member of the 'loginmanager' role to access this system view. 
+Reverse Engineer will continue the import process, and logins will not be imported.
+The reverse engineering operation will attempt to continue anyway, but the resulting model might be incomplete, malformed, or incorrect.
+
